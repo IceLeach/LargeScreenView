@@ -1,0 +1,35 @@
+.radioTabs {
+  width: 100%;
+  height: 32px;
+  display: flex;
+
+  .tab {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #C2D7E6;
+    border-top: 1px solid #004547;
+    border-bottom: 1px solid #004547;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .tab.tabStart {
+    border-left: 1px solid #004547;
+  }
+
+  .tab.tabEnd {
+    border-right: 1px solid #004547;
+  }
+
+  .tab.tab.tabActive {
+    font-weight: bold;
+    color: #fff;
+    background: #228D87;
+    border: 1px solid #04E4C6;
+  }
+}

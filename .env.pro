@@ -1,0 +1,3 @@
+ROUTE_BASE=/datav/
+
+API_URL=http://192.168.10.140:8089/dms1
